@@ -1,0 +1,25 @@
+{
+  "currency": "USD",
+  "description": "Qwen/Qwen3 Coder 30B A3B Instruct language model",
+  "details": {
+    "object": "model",
+    "owned_by": "system"
+  },
+  "display_name": "Qwen/Qwen3 Coder 30B A3B Instruct",
+  "name": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+  "schema": "offering_v1",
+  "service_type": "llm",
+  "status": "ready",
+  "tags": [
+    "byop"
+  ],
+  "time_created": "2026-01-26T02:53:56.351Z",
+  "upstream_access_interfaces": {
+    "Nebius API": {
+      "access_method": "http",
+      "api_key": "${ secrets.NEBIUS_API_KEY }",
+      "base_url": "https://api.studio.nebius.com/v1/",
+      "rate_limits": []
+    }
+  }
+}

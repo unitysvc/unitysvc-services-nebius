@@ -1,0 +1,25 @@
+{
+  "currency": "USD",
+  "description": "Meta Llama/Llama 3.3 70B Instruct Fast language model",
+  "details": {
+    "object": "model",
+    "owned_by": "system"
+  },
+  "display_name": "Meta Llama/Llama 3.3 70B Instruct Fast",
+  "name": "meta-llama/Llama-3.3-70B-Instruct-fast",
+  "schema": "offering_v1",
+  "service_type": "llm",
+  "status": "ready",
+  "tags": [
+    "byop"
+  ],
+  "time_created": "2026-01-26T02:53:56.329Z",
+  "upstream_access_interfaces": {
+    "Nebius API": {
+      "access_method": "http",
+      "api_key": "${ secrets.NEBIUS_API_KEY }",
+      "base_url": "https://api.studio.nebius.com/v1/",
+      "rate_limits": []
+    }
+  }
+}

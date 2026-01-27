@@ -1,0 +1,25 @@
+{
+  "currency": "USD",
+  "description": "Nvidia/Nvidia Nemotron 3 Nano 30B A3B language model",
+  "details": {
+    "object": "model",
+    "owned_by": "system"
+  },
+  "display_name": "Nvidia/Nvidia Nemotron 3 Nano 30B A3B",
+  "name": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+  "schema": "offering_v1",
+  "service_type": "llm",
+  "status": "ready",
+  "tags": [
+    "byop"
+  ],
+  "time_created": "2026-01-26T02:53:56.361Z",
+  "upstream_access_interfaces": {
+    "Nebius API": {
+      "access_method": "http",
+      "api_key": "${ secrets.NEBIUS_API_KEY }",
+      "base_url": "https://api.studio.nebius.com/v1/",
+      "rate_limits": []
+    }
+  }
+}

@@ -1,0 +1,36 @@
+const API_KEY = process.env.API_KEY;
+const ENDPOINT = "https://api.tokenfactory.nebius.com/v1/embeddings";
+
+async function main() {
+  try {
+    const payload = {
+      model: "{{offering.name}}",
+      input: "saturday"
+    };
+
+    const response = await fetch(ENDPOINT, {
+      method: "POST",
+      headers: {
+        "Authorization": `Bearer ${API_KEY}`,
+        "Content-Type": "application/json",
+        "Accept": "*/*"
+      },
+      body: JSON.stringify(payload)
+    });
+
+    const raw = await response.text();
+    console.log("Raw Response:", raw);
+
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}: ${raw}`);
+    }
+
+    const data = JSON.parse(raw);
+    console.log("Embedding Result:", data);
+
+  } catch (err) {
+    console.error("API Error:", err);
+  }
+}
+
+main();
