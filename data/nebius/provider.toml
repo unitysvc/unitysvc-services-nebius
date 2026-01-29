@@ -8,7 +8,7 @@ terms_of_service = "https://docs.nebius.com/legal/studio/terms-of-use"
 time_created = "2025-08-31T00:00:00Z"
 
 [services_populator]
-command = ['scripts/update_services.py']
+command = 'scripts/update_services.py'
 requirements = ['any-llm-sdk[nebius]', 'requests', 'unitysvc-services']
 
 [services_populator.envs]
