@@ -28,7 +28,6 @@
   "upstream_access_interfaces": {
     "Nebius API": {
       "access_method": "http",
-      "api_key": "${ secrets.NEBIUS_API_KEY }",
       "base_url": "https://api.studio.nebius.com/v1/",
       "rate_limits": []
     }
