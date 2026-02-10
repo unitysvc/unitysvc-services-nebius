@@ -52,7 +52,10 @@
   "user_access_interfaces": {
     "Provider API": {
       "access_method": "http",
-      "base_url": "${GATEWAY_BASE_URL}/p/nebius"
+      "base_url": "${GATEWAY_BASE_URL}/p/nebius",
+      "routing_key": {
+        "model": "nvidia/Nemotron-Nano-V2-12b"
+      }
     }
   },
   "user_parameters_schema": {
