@@ -51,8 +51,8 @@
   },
   "list_price": {
     "description": "Pricing Per 1M Tokens Input/Output",
-    "input": "0.09",
-    "output": "0.16",
+    "input": "0.5",
+    "output": "2.8",
     "reference": null,
     "type": "one_million_tokens"
   },
@@ -63,13 +63,13 @@
     }
   },
   "status": "ready",
-  "time_created": "2026-01-26T02:53:56.335Z",
+  "time_created": "2026-02-16T22:19:18.412118Z",
   "user_access_interfaces": {
     "Provider API": {
       "access_method": "http",
       "base_url": "${GATEWAY_BASE_URL}/p/nebius",
       "routing_key": {
-        "model": "google/gemma-3-27b-it"
+        "model": "moonshotai/Kimi-K2.5"
       }
     }
   },
