@@ -1,0 +1,48 @@
+const UNITYSVC_API_KEY = process.env.UNITYSVC_API_KEY;
+const ENDPOINT = "https://api.studio.nebius.ai/v1/images/generations";
+import fs from "fs";
+
+async function main() {
+  const response = await fetch(ENDPOINT, {
+    method: "POST",
+    headers: {
+      "Authorization": `Bearer ${UNITYSVC_API_KEY}`,
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      model: "{{offering.name}}",
+      prompt: "a futuristic city at sunrise, ultra detailed",
+      size: "1024x1024"
+    })
+  });
+
+  const text = await response.text();
+  console.log("Raw:", text);
+
+  if (!response.ok) {
+    throw new Error(`HTTP ${response.status} → ${text}`);
+  }
+
+  const result = JSON.parse(text);
+
+  if (result.data && result.data.length > 0) {
+    const item = result.data[0];
+
+    if (item.b64_json) {
+      const buffer = Buffer.from(item.b64_json, "base64");
+      fs.writeFileSync("flux_output.png", buffer);
+      console.log("Saved → flux_output.png");
+    } else if (item.url) {
+      const img = await fetch(item.url);
+      const arr = Buffer.from(await img.arrayBuffer());
+      fs.writeFileSync("flux_output.png", arr);
+      console.log("Saved from URL → flux_output.png");
+    } else {
+      console.log("No usable image data returned.");
+    }
+  } else {
+    console.log("No image data returned.");
+  }
+}
+
+main().catch(console.error);

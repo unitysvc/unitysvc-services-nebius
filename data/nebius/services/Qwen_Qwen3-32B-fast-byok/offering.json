@@ -1,0 +1,24 @@
+{
+  "currency": "USD",
+  "description": "Qwen/Qwen3 32B Fast language model",
+  "details": {
+    "object": "model",
+    "owned_by": "system"
+  },
+  "display_name": "Qwen/Qwen3 32B Fast",
+  "name": "Qwen/Qwen3-32B-fast",
+  "schema": "offering_v1",
+  "service_type": "llm",
+  "status": "deprecated",
+  "tags": [
+    "byok"
+  ],
+  "time_created": "2026-01-26T02:53:56.334Z",
+  "upstream_access_interfaces": {
+    "Nebius API": {
+      "access_method": "http",
+      "base_url": "https://api.studio.nebius.com/v1/",
+      "rate_limits": []
+    }
+  }
+}

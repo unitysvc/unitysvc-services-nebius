@@ -1,0 +1,24 @@
+{
+  "currency": "USD",
+  "description": "Qwen/Qwen2.5 Vl 72B Instruct language model",
+  "details": {
+    "object": "model",
+    "owned_by": "system"
+  },
+  "display_name": "Qwen/Qwen2.5 Vl 72B Instruct",
+  "name": "Qwen/Qwen2.5-VL-72B-Instruct",
+  "schema": "offering_v1",
+  "service_type": "llm",
+  "status": "deprecated",
+  "tags": [
+    "byok"
+  ],
+  "time_created": "2026-01-26T02:53:56.339Z",
+  "upstream_access_interfaces": {
+    "Nebius API": {
+      "access_method": "http",
+      "base_url": "https://api.studio.nebius.com/v1/",
+      "rate_limits": []
+    }
+  }
+}
