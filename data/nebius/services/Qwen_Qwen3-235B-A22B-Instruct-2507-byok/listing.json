@@ -62,7 +62,6 @@
   "user_access_interfaces": {
     "Provider API": {
       "access_method": "http",
-      "api_key": "${ secrets.NEBIUS_API_KEY }",
       "base_url": "${GATEWAY_BASE_URL}/p/nebius",
       "routing_key": {
         "model": "Qwen/Qwen3-235B-A22B-Instruct-2507"
