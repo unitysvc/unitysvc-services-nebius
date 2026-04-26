@@ -6,7 +6,12 @@
   "description": "Nvidia/Nemotron 3 Super 120B A12B language model",
   "details": {
     "object": "model",
-    "owned_by": "system"
+    "owned_by": "system",
+    "metadata_sources": {
+      "context_length": "openrouter"
+    },
+    "context_length": 262144,
+    "parameter_count": null
   },
   "display_name": "Nvidia/Nemotron 3 Super 120B A12B",
   "name": "nvidia/nemotron-3-super-120b-a12b",

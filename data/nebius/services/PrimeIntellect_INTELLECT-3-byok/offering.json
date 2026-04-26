@@ -6,7 +6,9 @@
   "description": "Primeintellect/Intellect 3 language model",
   "details": {
     "object": "model",
-    "owned_by": "system"
+    "owned_by": "system",
+    "context_length": null,
+    "parameter_count": null
   },
   "display_name": "Primeintellect/Intellect 3",
   "name": "PrimeIntellect/INTELLECT-3",

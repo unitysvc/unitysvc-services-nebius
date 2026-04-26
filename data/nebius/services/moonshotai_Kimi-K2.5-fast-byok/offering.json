@@ -6,7 +6,12 @@
   "description": "Moonshotai/Kimi K2.5 Fast language model",
   "details": {
     "object": "model",
-    "owned_by": "system"
+    "owned_by": "system",
+    "metadata_sources": {
+      "context_length": "openrouter"
+    },
+    "context_length": 262144,
+    "parameter_count": null
   },
   "display_name": "Moonshotai/Kimi K2.5 Fast",
   "name": "moonshotai/Kimi-K2.5-fast",

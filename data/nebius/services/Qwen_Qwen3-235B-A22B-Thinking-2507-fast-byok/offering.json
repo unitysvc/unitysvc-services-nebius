@@ -6,7 +6,12 @@
   "description": "Qwen/Qwen3 235B A22B Thinking 2507 Fast language model",
   "details": {
     "object": "model",
-    "owned_by": "system"
+    "owned_by": "system",
+    "metadata_sources": {
+      "context_length": "openrouter"
+    },
+    "context_length": 131072,
+    "parameter_count": null
   },
   "display_name": "Qwen/Qwen3 235B A22B Thinking 2507 Fast",
   "name": "Qwen/Qwen3-235B-A22B-Thinking-2507-fast",

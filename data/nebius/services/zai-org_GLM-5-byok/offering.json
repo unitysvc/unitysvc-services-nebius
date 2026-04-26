@@ -8,7 +8,12 @@
     "litellm_provider": "baseten",
     "mode": "chat",
     "object": "model",
-    "owned_by": "system"
+    "owned_by": "system",
+    "metadata_sources": {
+      "parameter_count": "huggingface_safetensors"
+    },
+    "context_length": null,
+    "parameter_count": 753864119552
   },
   "display_name": "Zai Org/Glm 5",
   "name": "zai-org/GLM-5",

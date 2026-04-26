@@ -6,7 +6,12 @@
   "description": "Qwen/Qwen3.5 397B A17B Fast language model",
   "details": {
     "object": "model",
-    "owned_by": "system"
+    "owned_by": "system",
+    "metadata_sources": {
+      "context_length": "openrouter"
+    },
+    "context_length": 262144,
+    "parameter_count": null
   },
   "display_name": "Qwen/Qwen3.5 397B A17B Fast",
   "name": "Qwen/Qwen3.5-397B-A17B-fast",

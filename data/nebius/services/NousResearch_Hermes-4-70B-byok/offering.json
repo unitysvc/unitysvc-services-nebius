@@ -6,7 +6,12 @@
   "description": "Nousresearch/Hermes 4 70B language model",
   "details": {
     "object": "model",
-    "owned_by": "system"
+    "owned_by": "system",
+    "metadata_sources": {
+      "context_length": "openrouter"
+    },
+    "context_length": 131072,
+    "parameter_count": null
   },
   "display_name": "Nousresearch/Hermes 4 70B",
   "name": "NousResearch/Hermes-4-70B",
