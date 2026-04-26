@@ -5,8 +5,13 @@
   "currency": "USD",
   "description": "Qwen/Qwen3 235B A22B Thinking 2507 Fast language model",
   "details": {
+    "context_length": 131072,
+    "metadata_sources": {
+      "context_length": "openrouter"
+    },
     "object": "model",
-    "owned_by": "system"
+    "owned_by": "system",
+    "parameter_count": null
   },
   "display_name": "Qwen/Qwen3 235B A22B Thinking 2507 Fast",
   "name": "Qwen/Qwen3-235B-A22B-Thinking-2507-fast",

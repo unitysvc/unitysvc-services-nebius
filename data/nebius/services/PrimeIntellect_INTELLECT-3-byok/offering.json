@@ -5,8 +5,10 @@
   "currency": "USD",
   "description": "Primeintellect/Intellect 3 language model",
   "details": {
+    "context_length": null,
     "object": "model",
-    "owned_by": "system"
+    "owned_by": "system",
+    "parameter_count": null
   },
   "display_name": "Primeintellect/Intellect 3",
   "name": "PrimeIntellect/INTELLECT-3",

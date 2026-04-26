@@ -5,8 +5,10 @@
   "currency": "USD",
   "description": "Deepseek Ai/Deepseek V3.2 Fast language model",
   "details": {
+    "context_length": null,
     "object": "model",
-    "owned_by": "system"
+    "owned_by": "system",
+    "parameter_count": null
   },
   "display_name": "Deepseek Ai/Deepseek V3.2 Fast",
   "name": "deepseek-ai/DeepSeek-V3.2-fast",

@@ -5,8 +5,13 @@
   "currency": "USD",
   "description": "Google/Gemma 2 2B It language model",
   "details": {
+    "context_length": null,
+    "metadata_sources": {
+      "parameter_count": "huggingface_safetensors"
+    },
     "object": "model",
-    "owned_by": "system"
+    "owned_by": "system",
+    "parameter_count": 2614341888
   },
   "display_name": "Google/Gemma 2 2B It",
   "name": "google/gemma-2-2b-it",

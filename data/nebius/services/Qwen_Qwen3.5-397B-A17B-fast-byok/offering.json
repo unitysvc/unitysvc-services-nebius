@@ -5,8 +5,13 @@
   "currency": "USD",
   "description": "Qwen/Qwen3.5 397B A17B Fast language model",
   "details": {
+    "context_length": 262144,
+    "metadata_sources": {
+      "context_length": "openrouter"
+    },
     "object": "model",
-    "owned_by": "system"
+    "owned_by": "system",
+    "parameter_count": null
   },
   "display_name": "Qwen/Qwen3.5 397B A17B Fast",
   "name": "Qwen/Qwen3.5-397B-A17B-fast",

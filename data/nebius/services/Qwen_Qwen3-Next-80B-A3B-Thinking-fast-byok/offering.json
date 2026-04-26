@@ -5,8 +5,13 @@
   "currency": "USD",
   "description": "Qwen/Qwen3 Next 80B A3B Thinking Fast language model",
   "details": {
+    "context_length": 131072,
+    "metadata_sources": {
+      "context_length": "openrouter"
+    },
     "object": "model",
-    "owned_by": "system"
+    "owned_by": "system",
+    "parameter_count": null
   },
   "display_name": "Qwen/Qwen3 Next 80B A3B Thinking Fast",
   "name": "Qwen/Qwen3-Next-80B-A3B-Thinking-fast",

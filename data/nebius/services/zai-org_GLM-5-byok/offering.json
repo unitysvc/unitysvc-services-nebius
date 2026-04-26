@@ -5,10 +5,15 @@
   "currency": "USD",
   "description": "Zai Org/Glm 5 language model",
   "details": {
+    "context_length": null,
     "litellm_provider": "baseten",
+    "metadata_sources": {
+      "parameter_count": "huggingface_safetensors"
+    },
     "mode": "chat",
     "object": "model",
-    "owned_by": "system"
+    "owned_by": "system",
+    "parameter_count": 753864119552
   },
   "display_name": "Zai Org/Glm 5",
   "name": "zai-org/GLM-5",

@@ -5,8 +5,13 @@
   "currency": "USD",
   "description": "Openai/Gpt Oss 120B Fast language model",
   "details": {
+    "context_length": 131072,
+    "metadata_sources": {
+      "context_length": "openrouter"
+    },
     "object": "model",
-    "owned_by": "system"
+    "owned_by": "system",
+    "parameter_count": null
   },
   "display_name": "Openai/Gpt Oss 120B Fast",
   "name": "openai/gpt-oss-120b-fast",

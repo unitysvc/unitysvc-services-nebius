@@ -5,8 +5,10 @@
   "currency": "USD",
   "description": "Minimaxai/Minimax M2.5 Fast language model",
   "details": {
+    "context_length": null,
     "object": "model",
-    "owned_by": "system"
+    "owned_by": "system",
+    "parameter_count": null
   },
   "display_name": "Minimaxai/Minimax M2.5 Fast",
   "name": "MiniMaxAI/MiniMax-M2.5-fast",
