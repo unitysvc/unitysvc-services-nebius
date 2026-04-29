@@ -1,8 +1,0 @@
-curl --location "$SERVICE_BASE_URL/images/generations" \
-  -H "Authorization: Bearer $UNITYSVC_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "model": "{{ routing_key.model }}}}",
-    "prompt": "a futuristic city at sunrise, ultra detailed",
-    "size": "1024x1024"
-  }'
